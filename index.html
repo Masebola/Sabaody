@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabaody - Your vision, our creation</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Sidebar Navigation -->
+    <nav class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <h3>Sabaody</h3>
+            <button class="close-btn" id="closeSidebar">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#roots">Our Roots</a></li>
+            <li><a href="#story">Our Story</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Overlay -->
+    <div class="overlay" id="overlay"></div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-code glow-icon"></i>
+                <div>
+                    <h1>Sabaody</h1>
+                    <p class="motto">Your vision, our creation.</p>
+                </div>
+            </div>
+            <div class="header-controls">
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-sun"></i>
+                </button>
+                <button class="menu-btn" id="menuBtn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Landing/Intro Section -->
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h2 class="glow-text">Welcome to Sabaody</h2>
+                        <p>We're Sabaody, a passionate web design company from Venda. We build websites that don't just look good, they also help build an online presence for your business!</p>
+                        <button class="cta-btn">View Our Work</button>
+                    </div>
+                    <div class="hero-images">
+                        <div class="profile-pic large">
+                            <img src="images/logo.jpg" alt="Sabaody Team">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Roots Section -->
+        <section id="roots" class="roots">
+            <div class="container">
+                <h2 class="section-title glow-text">Our Roots</h2>
+                <div class="roots-content">
+                    <p class="highlight-text">"We are not just another web agency. We bring in local talent to every website we build. Think global standards with authentic Venda art."</p>
+                    <p>Working from Venda, we emphasize our deep connection to the local community. Our partnership with the University of Venda helps us understand businesses in our community and assist in their growth, bringing together academic excellence with real-world application.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Story Section -->
+        <section id="story" class="story">
+            <div class="container">
+                <h2 class="section-title glow-text">Our Story</h2>
+                <p class="story-intro">Back in early 2024, Vutivi and Masebola started Sabaody with one simple idea: websites should be beautiful and actually work for your business.</p>
+                <p class="story-inspiration">Why Sabaody? Inspired by One Piece's Sabaody Archipelago - a place where dreams and adventure begin.</p>
+                
+                <div class="founders">
+                    <div class="founder-card">
+                        <div class="founder-image">
+                            <img src="images/Vutivi.jpg" alt="Vutivi Nyati">
+                        </div>
+                        <h3>Vutivi Nyati</h3>
+                        <p class="founder-title">Co-founder, Computer Science Student</p>
+                        <p class="founder-quote">"To your heart's content."</p>
+                    </div>
+                    <div class="founder-card">
+                        <div class="founder-image">
+                            <img src="images/swag.jpg" alt="Masebola Sikhwivhilu">
+                        </div>
+                        <h3>Masebola Sikhwivhilu</h3>
+                        <p class="founder-title">Co-founder, Computer Science Student</p>
+                        <p class="founder-quote">"Programming is an art."</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2 class="section-title glow-text">Our Skills</h2>
+                <p class="skills-intro">We use modern tools and programming languages to bring your vision to life.</p>
+                
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="fab fa-html5 skill-icon"></i>
+                        <h3>Web Development</h3>
+                        <p>HTML, CSS, JavaScript, React</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-code skill-icon"></i>
+                        <h3>Programming Languages</h3>
+                        <p>Java, C#, C++, Python</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-database skill-icon"></i>
+                        <h3>Databases</h3>
+                        <p>SQL</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-git-alt skill-icon"></i>
+                        <h3>Version Control</h3>
+                        <p>Git</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-robot skill-icon"></i>
+                        <h3>AI Tools</h3>
+                        <p>ChatGPT</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title glow-text">Our Projects</h2>
+                
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/Church.jpg" alt="Church Website">
+                        </div>
+                        <h3>Church (Univen SCO) Website</h3>
+                        <p>Modern church website with event management and community features.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <div class="project-buttons">
+                            <button class="btn-secondary">View Repo</button>
+                            <button class="btn-primary">Live Demo</button>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/Library best.jpg" alt="Library Management System">
+                        </div>
+                        <h3>Library Management System</h3>
+                        <p>Complete library management solution with book tracking and user management.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">SQL</span>
+                        </div>
+                        <div class="project-buttons">
+                            <button class="btn-secondary">View Repo</button>
+                            <button class="btn-primary">Live Demo</button>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/TO DO.jpg" alt="To-Do List Website">
+                        </div>
+                        <h3>To-Do List Website</h3>
+                        <p>Interactive task management application with local storage.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <div class="project-buttons">
+                            <button class="btn-secondary">View Repo</button>
+                            <button class="btn-primary">Live Demo</button>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/Port.jpg" alt="Portfolio Website">
+                        </div>
+                        <h3>Portfolio Website</h3>
+                        <p>Professional portfolio showcasing co-founder's work and achievements.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <div class="project-buttons">
+                            <button class="btn-secondary">View Repo</button>
+                            <button class="btn-primary">Live Demo</button>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/Spa.jpg" alt="The Royals Green Website">
+                        </div>
+                        <h3>The Royals Green BAR/COFFEE/SPA</h3>
+                        <p>Elegant business website for a premium bar, coffee shop, and spa.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <div class="project-buttons">
+                            <button class="btn-secondary">View Repo</button>
+                            <button class="btn-primary">Live Demo</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services">
+            <div class="container">
+                <h2 class="section-title glow-text">Our Services</h2>
+                <p class="services-intro">Here's how we help businesses like yours succeed online.</p>
+                
+                <div class="services-grid">
+                    <div class="service-card">
+                        <h3>Initial Package</h3>
+                        <p class="service-description">Simple landing pages perfect for getting your business online quickly.</p>
+                        <div class="price">R900 - R1500</div>
+                        <ul class="service-features">
+                            <li>Responsive design</li>
+                            <li>Contact form</li>
+                            <li>Basic SEO</li>
+                            <li>Mobile-friendly</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="service-card featured">
+                        <h3>Intermediate Package</h3>
+                        <p class="service-description">Multi-page websites with enhanced features for growing businesses.</p>
+                        <div class="price">R1800 -R3000</div>
+                        <ul class="service-features">
+                            <li>Up to 5 pages</li>
+                            <li>Content management</li>
+                            <li>Advanced SEO</li>
+                            <li>Social media integration</li>
+                            <li>Analytics setup</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="service-card">
+                        <h3>Advanced Package</h3>
+                        <p class="service-description">Full-featured business websites with custom functionality.</p>
+                        <div class="price">R3000 - R5000</div>
+                        <ul class="service-features">
+                            <li>Unlimited pages</li>
+                            <li>E-commerce capability</li>
+                            <li>Custom features</li>
+                            <li>Database integration</li>
+                            <li>Admin dashboard</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="extra-services">
+                    <h3>Additional Services</h3>
+                    <div class="extra-services-grid">
+                        <div class="extra-service">
+                            <h4>Maintenance & Bug Fixing</h4>
+                            <p>R300/hour</p>
+                        </div>
+                        <div class="extra-service">
+                            <h4>Mobile-Friendly Guarantee</h4>
+                            <p>Included in all packages</p>
+                        </div>
+                        <div class="extra-service">
+                            <h4>Customer Support</h4>
+                            <p>R200/hour</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Team Section -->
+        <section id="team" class="team">
+            <div class="container">
+                <h2 class="section-title glow-text">Meet Our Team</h2>
+                <p class="team-caption">Meet the people behind Sabaody.</p>
+                <div class="team-photo">
+                    <img src="images/young-developer-coding.png" alt="Sabaody Team">
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title glow-text">Contact Us</h2>
+                
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h3>Location</h3>
+                                <p>University of Venda campus<br>Thohoyandou, Limpopo</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h3>Phone</h3>
+                                <p>+27 81 596 8725<br>+27 74 869 4801</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h3>Email</h3>
+                                <p>SikhwivhiluMasebola@gmail.com</p>
+                                <p></p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h3>Working Hours</h3>
+                                <p>Mon–Fri: 9 AM – 6 PM<br>Sat: 10 AM – 4 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form">
+                        <form>
+                            <div class="form-group">
+                                <input type="text" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea placeholder="Your Message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-code glow-icon"></i>
+                    <div>
+                        <h3>Sabaody</h3>
+                        <p>Your vision, our creation.</p>
+                    </div>
+                </div>
+                
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Sabaody. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
